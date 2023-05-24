@@ -1,0 +1,114 @@
+
+Review
+
+Let's review what you have learned so far. Read carefully, as there's a Quiz coming up next!
+Syntax
+
+Syntax is the rules for writing JavaScript code. If you don't follow the rules, your code won't run properly.
+Function Calls
+
+Function calls are the commands used in the puzzles so far.
+
+For example, the forward(); command is making a function call to the function named forward.
+
+Here are some of the ways that you can get it wrong!
+Syntax 	Valid?
+forward(); 	Valid
+forward; 	Invalid
+forward() 	Invalid
+forward 	Invalid
+forward(; 	Invalid
+forward); 	Invalid
+forward( 	Invalid
+forward) 	Invalid
+Function Names
+
+Function names in JavaScript are a type of Identifier. Variables are another kind of identifier, used to store information in your programs.
+
+You have to follow some naming conventions when creating identifiers:
+
+    They cannot have any spaces
+    They must begin with a letter, a dollar sign ($), or an underscore ( _ )
+    They can contain letters and numbers
+    They cannot contain symbols such as exclamation marks (!), hyphens (-), periods (.), commas (,), etc.
+    JavaScript treats upper and lower case letters differently. A function called turnRight() is not the same thing as a function called turnright().
+
+Here are some demonstrations of names that are allowed and those that aren't.
+Syntax 	Valid?
+forward 1(); 	Invalid because function names cannot have spaces
+1forward(); 	Invalid because function names cannot start with a number
+oneforward(); 	Valid
+forward1(); 	Valid
+forward!!(); 	Invalid because function names cannot have symbols such as !
+ForWarD(); 	Valid
+CamelCase
+
+If a variable or function name has multiple words, then all words after the first word should start with an uppercase letter.
+
+For example: gameOver, highScore, firstName, lastName.
+
+This naming convention helps with understanding and debugging code.
+Using Comments
+
+Commenting is a way to write an explanation of your code. It helps others understand your code.
+
+Comments don't affect how your program runs.
+Single-Line Comments
+
+JavaScript syntax for single-line comments is as follows:
+
+    Type two forward slash characters // to start a new comment.
+    Any text that you write on that line after that will be documentation for your code and won't run.
+
+Here's how you might write two comments, to describe the purpose of two functions:
+
+1
+
+forward(); // this moves the ship one step forward
+
+2
+
+turnRight();// this turns the ship to the right
+
+Multi-Line Comments
+
+Sometimes, you want more than one line of text to describe a section of code.
+
+JavaScript syntax for multi-line comments is as follows:
+
+    Starts with /* and ends with */.
+    Any text between the start and end marker will be ignored by JavaScript.
+
+Here's how it might look in code.
+
+1
+
+/*
+
+2
+
+Here are the commands to get to the treasure.
+
+3
+
+First, start by moving forward one square.
+
+4
+
+Then turn right to point down.
+
+5
+
+Then move forward again to get further ahead.
+
+6
+
+You'll be on the treasure after the last step!
+
+7
+
+*/
+
+Multi-line comments are used for more detailed documentation.
+Previous Next
+© Tynker, 2020
